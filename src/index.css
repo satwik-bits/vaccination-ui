@@ -1,0 +1,39 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard-stats {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stat-box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 30%;
+  text-align: center;
+}
+
+.dashboard-menu {
+  margin-top: 20px;
+}
+
+.dashboard-menu ul {
+  list-style-type: none;
+}
+
+.dashboard-menu li {
+  margin: 10px 0;
+}
+
+.dashboard-menu a {
+  text-decoration: none;
+  color: #007bff;
+}

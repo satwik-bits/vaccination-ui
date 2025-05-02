@@ -1,0 +1,27 @@
+.success-message {
+  background-color: #e6ffed;
+  color: #2e7d32;
+  padding: 1rem;
+  border: 1px solid #a5d6a7;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.error-message {
+  background-color: #fff9db;
+  color: #c62828;
+  padding: 1rem;
+  border: 1px solid #ef9a9a;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+#grad {
+  background-color: #fff9db;
+  background-image: linear-gradient(to bottom right, #43cea2, #185a9d);
+  padding: 2rem;
+  border-radius: 8px;
+  color: #000;
+}
