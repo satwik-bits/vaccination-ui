@@ -38,7 +38,7 @@ const AddStudent = ({ token }) => {
     };
     try {
       await axios.post(
-        '/v1/student/add',
+        '/student/add',
         payload,
         { headers: { Authorization: `Bearer ${token}` } }
       );
